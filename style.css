@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 80%;
+    margin: 5vh auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.game div {
+    height: 30vh;
+    flex-grow: 1;
+    margin: 10px;
+    border: 3px solid gray
+}
+
+.game {
+    margin-bottom: 3vh;
+    display: flex;
+}
+
+.play {
+    text-align: center;
+}
+
+.play input {
+    height: 90px;
+    font-size: 40px;
+    padding: 20px;
+    width: 400px;
+    border: 3px solid black; 
+}
+
+.play button {
+    margin-top: 30px;
+    width: 40%;
+    height: 90px;
+    text-align: center;
+    pad: 20px 60px;
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: #333;
+    border: none;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 6px;
+}
+
+.panel {
+    margin: 80px 0 40px;
+    font-size: 26px;
+}
+.panel .score{
+    font-size: 26px;
+}
+.panel span, .score span {
+    font-weight: bold;
+}
